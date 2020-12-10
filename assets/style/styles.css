@@ -1,0 +1,243 @@
+
+
+.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item{
+    -ms-touch-action: auto;
+        touch-action: auto;
+}
+
+.ftco-navbar-light.scrolled {
+    background:#000000 !important;
+
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+    color: #fff;
+    font-weight: bold;
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
+    color: #ffbc40;
+}
+
+.ftco-navbar-light.scrolled .nav-link {
+    color: #fff !important;
+}
+
+.ftco-navbar-light.scrolled .nav-link:hover {
+    color: #ffbc40;
+}
+
+
+.ftco-navbar-light.scrolled .nav-link.btn-login {
+    color: #ffbc40 !important;
+    font-weight: bold;
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item.cta > a {
+    color: #fff;
+}
+
+.ftco-navbar-light.scrolled .nav-item.cta > a {
+    color: #000000 !important;
+    background: #ffbc40;
+    border: none !important;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text h1 {
+    color: #fff;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text p {
+    color:#fff;
+}
+
+.owl-carousel.home-slider {
+    background: #000000; 
+}
+
+.product .text .cat, .product .text .rating {
+    width: 100%;
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link.btn-login{
+    color: #ffbc40;
+    font-weight: bold;
+}
+
+.ftco-navbar-light.scrolled.awake {
+    height: 70px;
+}
+
+.navbar-brand img{
+    height: 45px;
+    margin-bottom: 8px;
+}
+
+.product .img-prod.shop img {
+    height: 300px;
+    width: auto;
+    background-position: center center;
+}
+
+.btn.btn-primary {
+    background: #ffbc40;
+    border: none;
+    color: #fff;
+}
+
+.btn.btn-primary.check{
+    background: #ffbc40;
+    border: 1px solid #ffbc40;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+}
+
+.hero-wrap .slider-text .bread {
+    color: #fff;
+}
+
+.hero-wrap .slider-text .breadcrumbs span a {
+    color: #fff;
+}
+
+.hero-wrap .slider-text .breadcrumbs span {
+    color:#fff;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .btn-custom{
+    background-color: #ffbc40;
+}
+
+.table .thead-primary {
+    background:#ffbc40;
+}
+
+.table tbody tr td.product-remove a{
+    border: 1px solid#ffbc40;
+    background: #ffbc40;
+}
+
+.table tbody tr td.product-remove a:hover{
+    border: 1px solid #000000;
+    background: #000000;
+}
+
+.table .thead-primary tr th {
+    padding: 20px 10px;
+    color: #000000 !important;
+    font-weight: bold;
+    border: 1px solid transparent !important;
+}
+
+
+.ftco-footer-social li a {
+    height: 50px;
+    width: 50px;
+    display: block;
+    float: left;
+    background: #ffbc40;
+    border-radius: 50%;
+    position: relative;
+}
+
+.nav-link:hover{
+    text-decoration: none;
+    color: #ffbc40;
+}
+
+.image-profil{
+    height: 50%;
+}
+
+.wrap-login100 {
+    width: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 55px 55px 37px 55px;
+    background: #000000;
+}
+
+.container-login100::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+}
+
+.login100-form-btn::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    background-color: #ffbc40;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.login100-form-btn {
+    font-family: Poppins-Medium;
+    font-size: 16px;
+    color:#000000;
+    line-height: 1.2;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 120px;
+    height: 50px;
+    border-radius: 25px;
+    background: #ffbc40;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.login100-form-title {
+    font-family: Poppins-Medium;
+    font-size: 30px;
+    color: #ffbc40;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+}
+
+
+@media screen and (max-width: 996px) {
+    .product .img-prod img {
+        height: 383px;
+        width: auto;
+    }
+
+    .product .img-prod.shop img {
+        height: 383px;
+        width: auto;
+    }
+
+    .navbar-brand img{
+        height: 40px;
+        margin-bottom: 10px;
+    }
+  }
